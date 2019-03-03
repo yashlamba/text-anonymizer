@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text Anonymizer</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<body>
+	<div class="container">
+		<div class="form">
+			<form action="/" method="POST" class="box">
+				<h1>Text Anonymizer</h1>
+				<input type="text" name="name" placeholder="{{ text }}">
+				<input type="submit" name="submit" value="Anonymize">
+               	<div>{{ anonText }}</div>	
+            </form>		
+		</div>
+	<div class="rectangle1"></div>
+	<div class="rectangle2"></div>
+	</div>
+</body> 
+</html>
