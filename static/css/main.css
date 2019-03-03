@@ -10,10 +10,11 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .rectangle1{
+	z-index: -1;
 	position: fixed;
 	-ms-transform: rotate(-20deg); /* IE 9 */
 	-webkit-transform: rotate(-20deg); /* Safari */
-    transform: rotate(-35deg);
+    	transform: rotate(-35deg);
 	height: 500px;
 	width: 1000px;
 	background-color: #555;
@@ -43,8 +44,6 @@ font-family: 'Roboto Mono', monospace;
   width: 100%;
 }
 .box h1{
-	font
-  color: linear-gradient(90deg, #d62059, black);
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
 }
